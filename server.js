@@ -3,10 +3,15 @@ var bodyParser = require("body-parser");
 var mongodb = require("mongodb");
 var ObjectID = mongodb.ObjectID;
 
-var TEXTBOOK_COLLECTION = "textbooks";
+var TEXTBOOKS_COLLECTION = "textbooks";
 
 var app = express();
 app.use(bodyParser.json());
+
+// Create link to Angular build directory
+var distDir = __dirname + "/dist/";
+app.use(express.static(distDir));
+
 
 // Create a database variable outside of the database connection callback to reuse the connection pool in your app.
 var db;
