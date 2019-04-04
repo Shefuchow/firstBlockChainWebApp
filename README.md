@@ -1,12 +1,26 @@
 # firstBlockChainApp
-###### Live Demo Here https://test-9f0fc.firebaseapp.com
+###### Live Demo of Here https://test-9f0fc.firebaseapp.com
+###### For Bina: gitHub link here https://github.com/Shefuchow/firstBlockChainWebApp
+###### Partner on Lab2: Pranav Dattasaheb Kadam, pdkadam
+
 
 ## Requirements
 1. Node v6+
 2. Truffle
 3. npm
-4. Metamask
-5. firebase cli
+4. ganache
+5. Metamask
+6. firebase cli
+
+## Demo Yourself
+1. run ```git clone https://github.com/Shefuchow/firstBlockChainWebApp```
+2. Install all requirements (including setting up ganche and metamask)
+3. ```cd firstBlockChainWebApp```
+4. ```npm run dev```
+
+
+
+
 
 ## Set Up 
 1. run ```truffle unbox pet-shop```
