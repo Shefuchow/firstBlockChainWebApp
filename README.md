@@ -1,9 +1,12 @@
 # firstBlockChainApp
+###### Live Demo Here ()
 
 ## Requirements
 1. Node v6+
 2. Truffle
 3. npm
+4. Metamask
+5. firebase cli
 
 ## Set Up 
 1. run ```truffle unbox pet-shop```
@@ -27,3 +30,19 @@
 3. import your accounts from ganache
 4. run ```npm run dev```
 5. you can see how metamask reacts to when we want to adopt animals, and how that effect our accounts, and writes logs onto our blockchain on ganache
+
+## Deployment and Hosting
+0. npm install -g firebase-tools
+1. run ```firebase login```
+2. ```firebase list```
+3. ```firebase init``` 
+4. ```firebase deploy```
+5. ```firebase use --add```
+6. ```firebase deploy```
+
+#### Link -> https://test-9f0fc.firebaseapp.com
+#### Console -> https://console.firebase.google.com/project/test-9f0fc/overview
+
+
+
+
